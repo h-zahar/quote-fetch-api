@@ -1,0 +1,21 @@
+.quotation::before {
+    content: open-quote;
+    font-size: 1.3em;
+}
+
+.quotation::after {
+    content: close-quote;
+    font-size: 1.3em;
+}
+
+.button-style {
+    padding: 7px 22px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    transition: background-color 0.8s;
+}
+
+.button-style:hover {
+    background-color: darkblue;
+}
